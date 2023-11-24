@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.parent {
+    background-color: #10202f;
+    height: 500px;
+    margin-bottom: 20px;
+
+}
+
+.parent h1 {
+    color: #857a2c;
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+.parent p {
+    color: white;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.info {
+    background-color: #3d598b;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+    margin: 20px 5px;
+}
+
+.box {
+    display: flex;
+    font-size: 8px;
+}
+
+.box p {
+    width: 300px;
+    color: black;
+}
+
+.box img {
+    width: 200px;
+}
